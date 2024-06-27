@@ -11,8 +11,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
+      <Home  name = "Liza" city= "New York"/>
+ 
+      <About bio = {user.bio} link ={user.Links/>
     </div>
   );
 }
